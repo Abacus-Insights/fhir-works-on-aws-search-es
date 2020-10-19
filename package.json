@@ -1,5 +1,5 @@
 {
-  "name": "fhir-works-on-aws-search-es",
+  "name": "@abacus-insights/fhir-works-on-aws-search-es",
   "version": "1.0.0",
   "description": "FHIR Works on AWS search Elasticsearch implementation",
   "main": "lib/index.js",
@@ -28,10 +28,10 @@
     "prepublish": "tsc"
   },
   "dependencies": {
-    "fhir-works-on-aws-interface": "^1.0.0",
     "@elastic/elasticsearch": "7",
     "aws-elasticsearch-connector": "^8.2.0",
-    "aws-sdk": "^2.610.0"
+    "aws-sdk": "^2.610.0",
+    "fhir-works-on-aws-interface": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^25.1.1",
